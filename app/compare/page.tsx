@@ -67,7 +67,6 @@ export default function ComparePage() {
         onSearch={handleSearch}
         onLocationClick={handleGetLocation}
         loading={loading}
-        placeholder="Search for a city to find nearby weather..."
       />
 
       {/* Unit Toggle */}
