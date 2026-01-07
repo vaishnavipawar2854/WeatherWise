@@ -15,6 +15,10 @@ export const metadata: Metadata = {
   description: 'A modern weather forecasting application with a beautiful interface and real-time updates.',
   keywords: ['weather', 'forecast', 'temperature', 'climate'],
   authors: [{ name: 'WeatherWise Team' }],
+  icons: {
+    icon: '/icon.svg',
+    apple: '/apple-icon.svg',
+  },
 };
 
 export const viewport: Viewport = {
