@@ -37,7 +37,7 @@ export default function SearchBar({
         type="text"
         value={searchValue}
         onChange={(e) => setSearchValue(e.target.value)}
-        placeholder="Enter city name"
+        placeholder="Search for a city to find nearby weather..."
         className="flex-1 px-4 py-3 rounded-xl border border-gray-300 
                    focus:outline-none focus:ring-2 focus:ring-blue-500
                    dark:bg-gray-800 dark:border-gray-700 dark:text-white"
